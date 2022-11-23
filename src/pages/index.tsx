@@ -88,7 +88,7 @@ export default function Home() {
         validationSchema: {
           onChange: (v: any) => v.split(".").pop() == "jpg",
           validate: {
-            fileExtension: (v: any) => console.log(v[0].name),
+            // fileExtension: (v: any) => console.log(v[0].name),
           },
         },
       },
